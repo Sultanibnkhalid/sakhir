@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>Sultan's Profile</title>
+        <meta charset="utf-8" dir="ltr">
+        <meta name="discription" content="this page is peronal information" >
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- <link  rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.css">
+       <link  rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css"> -->
+       <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+       <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    
+       <style>
+        body{
+    color:#131f28;
+    background-color: #FFFFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 2px;
+}
+           .artical{
+    width: 98%;
+    margin:0px auto; 
+    height: 500px;
+    padding:auto;
+    background-color:inherit;
+    align-items: center;
+}
+.content_card{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin:0px auto;
+   /* margin-right: 0px;
+    float: left;*/
+    box-shadow:0 3px 6px rgba(0, 0,0,0.2 );
+    background-color: aliceblue;
+    border-radius: 0px;
+    display: none;
+    cursor:default; 
+    
+
+
+}
+ /* .main_header{
+   
+    width: 98%;
+    height: 150px;
+    margin:5px auto;
+    z-index: 1;
+   margin-right: 0px;
+    float: left;
+    box-shadow:0 3px 6px rgba(1, 4,0,6.2 );
+    color:white;
+    background-color:#131f28 ;
+    border-radius: 3px;
+    align-items: center;
+    align-content: center;
+
+    padding-top:15px ;
+
+} */
+      .blog{
+            width: auto;
+          height: 130;
+          margin:  auto;
+          align-content: center;
+          text-align: center;
+           }
+           
+           .profil{
+               width: 98%;
+               text-align: center;
+    height: auto;
+    margin:0px auto;
+    z-index: 1;
+  
+    box-shadow:0 3px 6px rgba(1, 4,0,6.2 );
+    color:white;
+    background-color:#4e6e86 ;
+    border-radius: 3px;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+ 
+           }
+           
+           
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+ 
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+ .image_container{
+             
+color: #666666;
+/*line-height: 22px;*/
+/* box-sizing: border-box; */
+width: 200px;
+height: 200px;
+display: block;
+border-radius: 100px;
+overflow: hidden;
+ background-color:aqua;
+ margin: 0px auto;
+  /* margin-left:15px 15px 0,0; */
+/*background: rgba(0,0,0,.1);*/
+/*margin: 5px auto; */
+/*transform: matrix(1, 0, 0, 1, 30, -35);*/
+visibility: inherit;
+opacity: 1;
+           }
+.content_card:hover{
+    background-color:aliceblue;
+    box-shadow:0 3px 6px rgba(0, 0,0,0.5 );
+}
+           @media screen and (min-width:0px) and (max-width:1100px){
+   
+    /* .header_minu_continer{
+        display: none;
+        
+    
+    } */
+    /* .header_icon{
+        display: block;
+        /* margin-top: 30%;
+        margin-left: 30%; 
+    } */
+}
+@media screen and (min-width:1100px)  and  (max-width:1350px) {
+    .content_card{
+        width: 100%;
+        height: 100%;
+        margin:0px auto;
+        border: none;
+/*
+        margin-left:20px;
+        margin-right: 0px;
+        float: left;
+*/
+    }
+/*
+    .dropbox{
+        display: none;
+
+    }
+*/
+}
+@media screen and (min-width:720px)  and  (max-width:1100px) {
+    .content_card{
+        width: 100%;
+        height: 90%;
+        margin:0px auto;
+        border: 2px solid grey;
+        border: none;
+    
+/*        margin:20px auto;*/
+        
+    }
+    .artical{
+        height: auto;
+        align-items: center;
+    }
+    .main_header{
+        height: auto;
+
+    }
+/*
+    .dropbox{
+        display: none;
+
+    }
+*/
+}
+@media screen and (min-width:0px)  and  (max-width:720px) {
+    .content_card{
+        width: 100%;
+        height: 90%;
+        margin:0px auto;
+        border:none;
+/*        margin:20px auto;*/
+         
+        
+    }
+    .image_container{
+        width: 150;
+        height: 150;
+        border-radius: 75;
+    }
+    *{
+        font-size: small;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .ul_list{
+        font-size: 1rem;
+    }
+    .artical{
+        height: auto;
+        align-items: center;
+    }
+}
+     #h1{
+        width: auto;
+        height: 70px;
+     }   
+     #list_container{
+         width: 100%;
+         height: 30px;
+         margin-bottom: 0;
+         border: none;
+         background-color:inherit;
+         margin-top: 12px;
+         align-content: center;
+         float: none;        
+     }
+     .ul_list{
+
+        height: 100%;
+        margin: 0px auto;
+        text-align: center;
+        background-color:inherit;
+        width: auto;
+        padding: auto;
+         
+
+        cursor:default;
+
+
+     }
+     .ul_item{
+
+        list-style-type: none;
+        display:inline-block;
+        height: 100%;
+        width:auto;
+        margin: 1px;
+        font-size: 1.5rem;
+        word-spacing: 5px;
+
+       color: floralwhite;
+       color:white;
+       text-align: center;
+        background-color:inherit;
+        padding: auto;
+        cursor:default;
+
+     }
+     .ul_item:hover{
+         
+         cursor:default;
+
+         opacity: 0.3;
+     }
+     .ul_item::after{
+         background-color:antiquewhite;
+         cursor:default;
+         opacity: 1;
+     }
+     .contacts_item{
+         list-style-type: none;
+         text-align: left;
+         width: auto;
+         text-indent: 30px;
+         height: 50px;
+         display: block;
+         
+
+
+     }
+     .contacts_item:hover{
+         opacity: 0.4;
+         background-color: aquamarine;
+
+     }
+        </style>
+    </head>
+    <body>
+         <!-- <div class="main_header">
+             <div class="blog">
+             <h1 id="h1" class="display-4 fst-italic">About Me !</h1>
+             </div>
+        </div> -->
+        <div class="profil">
+            <h1 id="h1" class="display-4 fst-italic">My CV</h1>
+             <div class="image_container">
+                <img src="images/my_image.jpg" alt="..." id="profile_image" width="100%" height="100%" /> 
+             </div>
+            <h1 id="h1" class="display-4 fst-italic">Sultan Khalid Alshojify</h1>
+             
+             <div id="list_container">
+                 <ul class="ul_list">
+                     <li id="ul_public" class="ul_item fa fa-info">Profile</li>
+                     <li id="ul_scientific_level"  class="ul_item fa fa-graduation-cap blue" style="color:blue;">scientific level</li>
+                     <li id="ul_countery"  class="ul_item fa fa-heart " style="color:red;">favorites</li>
+                     <li id="ul_contact"  class="ul_item fa fa-phone  " style="color:aquamarine;">contact me</li>
+                    
+                    
+                 </ul>
+
+             </div>
+        </div>
+        <article class="artical">
+           
+              <div id="public" class="content_card">
+                  <ul class="contacts_list">
+                      <li class="contacts_item  fa fa-user "> <p>Sultan Khalid Abdullah Alshojify</p></li>
+                      <li class="contacts_item fa    fa-search-location" ><p>Yemen</p> </li>
+                      <li class="contacts_item  fa fa-calendar-alt" ><p>2000</p></li>
+                  </ul>
+
+                  <!-- <p>    My name is Sultan Alshojify I am Yemeni. I am an IT student and I am studing now in Thamar Unvirsity. I am  intersted in programming so i spend all my free time learn it. 
+                  </p> -->
+              </div>
+              <div id="contacts" class="content_card">
+               <div class="contact_contauner">
+                   <ul class="contacts_list">
+                       <li class="contacts_item">
+                           <a href="https://github.com/Sultanibnkhalid" class="fab fa-github">github</a>
+                       </li> 
+                       <li class="contacts_item">
+                        <a href="#" class="fab fa-facebook-square">Facebook</a>
+                       </li> 
+                       <li class="contacts_item">
+                        <a href="#"  class="fab fa-google">gmail</a>
+                       </li> 
+                   </ul>
+
+               </div>
+            </div>
+            <div id="countery" class="content_card">
+                <ul class="contacts_list">
+                    <li class="contacts_item fa "> programming  </li>
+                        <li class="contacts_item fa f ">  football </li>
+                    <li class="contacts_item fa"> follow technical progress </li>     
+                </ul>
+            </div>
+            <div id="scientific_level" class="content_card">
+                <ul class="contacts_list">
+                    <li class="contacts_item fa fa-graduation-cap">Bachelor degree in Thamar University.<p>I'm still studing now</p> </li>
+                </ul>
+            </div>
+           
+        </article>
+
+   
+    <script>
+       var div_text=""//"Title of a longer featured blog post"; 
+       function checkContent(){
+           if(div_text=="public"){
+               $("#public").hide();
+           }
+          else if(div_text=="countery"){
+               $("#countery").hide();
+           }
+          else if(div_text=="contacts"){
+               $("#contacts").hide();
+           }
+         else  if(div_text=="scientific_level"){
+               $("#scientific_level").hide();
+           }
+           else{
+               return;
+           }
+       }
+       $(function(){
+           $("#ul_public").on("click",function(){
+               checkContent();
+               div_text="public"
+               $("#public").slideDown();
+           });
+           $("#ul_countery").on("click",function(){
+               checkContent();
+               div_text="countery"
+               $("#countery").slideDown();
+           });
+           $("#ul_contact").on("click",function(){
+               checkContent();
+               div_text="contacts"
+               $("#contacts").slideDown();
+           });
+           $("#ul_scientific_level").on("click",function(){
+               checkContent();
+               div_text="scientific_level"
+               $("#scientific_level").slideDown();
+           });
+       })
+
+    
+        
+    </script>
+
+    </body>
+</html>

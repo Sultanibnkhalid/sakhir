@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sakhar</title>
+    <meta charset="utf-8" lang="en" dir="ltr">
+    <meta name="discription" content="this web site for free projecs">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
+    <!-- <script src="jquery3_6_0.js"></script> -->
+    <script src="https://use.fontawesome.com/1a2d802e38.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+
+
+
+        <div class="main_header">
+            <div class="sit_name_div">
+                <label class="sit_name_lable">sakhar</label>
+
+            </div>
+
+
+
+            <div class="header_minu_continer" >
+                <ul class="inline_minu">
+                    <li class="menu_item">home</li>
+                    <li class="menu_item">additional content</li>
+                    <li class="menu_item">more spsific</li>
+                    <li class="menu_item">newest</li>
+                    <li class="menu_item"><a href="about_me.html">about</a></li>
+
+                </ul>
+            </div>
+
+            <div class="header_icon">
+                <button class="fab fa fa-navicon" id="menu_icon"></button>
+            </div>
+            <div class=" dropbox" id="dropbox_id">
+                <ul class="inline_minu">
+                    <li class="fa fa-home menu_item">home</li>
+                    <li class="menu_item">additional content</li>
+                    <li class="menu_item">more spsific</li>
+                    <li class="menu_item">newest</li>
+                    <li class="menu_item"><a href="about_me.html">about</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="second_header">
+            <p> Welcome here</p>
+            <P>The best paractice and learning </p>
+
+        </div>
+
+    </header>
+
+    <article class="artical">
+        <div class="content_card">
+
+        </div>
+        <div class="content_card">
+
+        </div>
+        <div class="content_card">
+
+        </div>
+
+    </article>
+
+    <footer class="footer fa fa-footr">
+        <label>sultan alshojify 2022</label>
+        <p>contact us </p>
+        <div class="social_media_box">
+            <ul class="">
+                <li class="menu_item"><a href="#" class="fab fa fa-google ">google</a></li>
+                <li class="menu_item"><a href="#" class="fab fa-telegram">telegram</a></li>
+                <li class="menu_item"><a href="#" class="fab fa-facebook-square" aria-hidden="true">facebook</a></li>
+
+            </ul>
+
+
+        </div>
+
+
+    </footer>
+</body>
+
+<script>
+
+    $("#menu_icon").on("click", function () {
+        if (document.getElementById("dropbox_id").style.display == "none") {
+            document.getElementById("dropbox_id").style.display = "block";
+        }
+        else {
+            document.getElementById("dropbox_id").style.display = "none"
+        }
+    });
+    $("#dropbox_id").on("click",function(){
+        $("#dropbox_id").hide();
+    })
+
+
+</script>
+
+</html>

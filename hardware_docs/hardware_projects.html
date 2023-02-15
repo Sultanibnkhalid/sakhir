@@ -4,19 +4,148 @@
 <head>
     <title>HardWare_projects</title>
     <meta charset="utf-8" lang="en" dir="ltr">
-    <meta name="discription" content="this web site for free HardWare_ projects projecs provide content from a student daily practice to help other students">
+    <meta name="discription"
+        content="this web site for free HardWare_ projects projecs provide content from a student daily practice to help other students">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <!-- <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <script src="jquery3_6_0.js"></script>-->
-    <script src="https://use.fontawesome.com/1a2d802e38.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script> 
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/sh_style.css" type="text/css">
 
+    <link rel="stylesheet" href="../css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+    <script src="../jquery3_6_0.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <script src="https://use.fontawesome.com/1a2d802e38.js"></script>
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
- 
+    <header>
+
+
+
+        <div class="main_header">
+            <div class="sit_name_div">
+                <label class="sit_name_lable">sakhir</label>
+
+            </div>
+            <div class="header_minu_continer">
+                <ul class="inline_minu">
+                    <li class="menu_item"><a href="../index.html">home</a></li>
+                    <li class="menu_item">additional content</li>
+                    <li class="menu_item">more spsific</li>
+                    <li class="menu_item">newest</li>
+                    <li class="menu_item"><a href="about_me.html">about</a></li>
+
+                </ul>
+            </div>
+            <div class="header_icon">
+                <button class="fab fa fa-navicon" id="menu_icon"></button>
+            </div>
+            <div class=" dropbox" id="dropbox_id">
+                <ul class="inline_minu">
+                    <li class="fa fa-home menu_item"><a href="../index.html">home</a></li>
+                    <li class="menu_item">additional content</li>
+                    <li class="menu_item">more spsific</li>
+                    <li class="menu_item">newest</li>
+                    <li class="menu_item"><a href="../about_me.html">about</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="visually-hidden">arduino simulation with tinkercad</h1>
+
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom">arduino simulation with tinkercad</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div class="card-img bg-primary bg-gradient">
+                        <img src="light_anddistance_sensor.JPG" alt="..." width="100%" height="100%" />
+                    </div>
+                    <h2>simulation of photoresistor </h2>
+                    <p>arduino width photoresistor and ultrasonic distance identifier to control light of room.</p>
+                    <a href="https://www.tinkercad.com/things/g9gq8HWss1q?sharecode=dI9wc2JdOFshkLSSMG8jdd8LKeOZTgso8qB-Gw8qwPQ
+                    " class="icon-link">
+                        go to it
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#chevron-right" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="feature col">
+                    <div class="card-img bg-primary bg-gradient">
+                        <img src="traffic_control.JPG" alt="..." width="100%" height="100%" />
+                    </div>
+                    <h2>simulation of traffic lights</h2>
+                    <p>arduino four dirctions samrt control trffic lights .</p>
+                    <a href="https://www.tinkercad.com/things/jlArtcfdPec?sharecode=5XkO62xLI-kxIc0-4ifuTHdCZCpDr1ZqC05I-N2Ku5M
+                    " class="icon-link">
+                        go to it
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#chevron-right" />
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="footer fa fa-footr">
+        <label>sultan alshojify 2022</label>
+        <p>contact us </p>
+        <div class="social_media_box">
+            <ul class="">
+                <li class="menu_item"><a href="#" class="fab fa fa-google ">google</a></li>
+                <li class="menu_item"><a href="#" class="fab fa-telegram">telegram</a></li>
+                <li class="menu_item"><a href="#" class="fab fa-facebook-square" aria-hidden="true">facebook</a></li>
+
+            </ul>
+
+
+        </div>
+
+
+    </footer>
+
+    <script>
+
+        $("#menu_icon").on("click", function () {
+            if (document.getElementById("dropbox_id").style.display == "none") {
+                document.getElementById("dropbox_id").style.display = "block";
+            }
+            else {
+                document.getElementById("dropbox_id").style.display = "none"
+            }
+        });
+        $("#dropbox_id").on("click", function () {
+            $("#dropbox_id").hide();
+        })
+
+
+    </script>
+
 </body>
 
 

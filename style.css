@@ -222,9 +222,9 @@ header{
         align-content:center ;
         font-size: 1rem;
     }
-    .main_header{
+    /* .main_header{
         height: 70px;
-    }
+    } */
     .header_minu_continer{
         display: none;
         
@@ -259,9 +259,7 @@ header{
         align-content:center ;
         font-size: 1rem;
     }
-    .main_header{
-        height: 70px;
-    }
+     
     .header_minu_continer{
         display: none;
         
@@ -297,9 +295,9 @@ header{
         align-content:center ;
         font-size: 1rem;
     }
-    .main_header{
+    /* .main_header{
         height: 70px;
-    }
+    } */
     .header_minu_continer{
         display: none;
         
